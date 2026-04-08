@@ -1,0 +1,116 @@
+{
+  "nearTerm": {
+    "label": "Near-Term",
+    "timeframe": "Now — 5 years",
+    "color": "#d97706",
+    "description": "Concrete, measurable harms from AI systems already deployed at scale.",
+    "items": [
+      {
+        "title": "Algorithmic Bias & Discrimination",
+        "description": "AI systems inherit and amplify the biases embedded in their training data—hiring tools that screen out minorities, facial recognition that misidentifies darker skin tones, medical algorithms that under-diagnose certain demographics.",
+        "status": "Well-Established",
+        "experts": ["Timnit Gebru", "Joy Buolamwini"],
+        "camp": "Near-Term Focus"
+      },
+      {
+        "title": "Deepfakes & Synthetic Disinformation",
+        "description": "Near-perfect synthetic media fabricates reality at zero marginal cost. Political deepfakes, non-consensual intimate imagery, and AI-generated disinformation narratives are eroding the epistemic commons faster than any countermeasure can deploy.",
+        "status": "Well-Established",
+        "experts": ["Renée DiResta", "Hao Li"],
+        "camp": "Near-Term Focus"
+      },
+      {
+        "title": "Engagement Optimization & Polarization",
+        "description": "Recommender systems trained to maximize engagement have a quantifiable causal effect on political radicalization. The objective function never specified 'radicalize users'—it just emerged as the optimal solution for maximizing watch-time.",
+        "status": "Well-Established",
+        "experts": ["Max Fisher", "Frances Haugen"],
+        "camp": "Near-Term Focus"
+      },
+      {
+        "title": "Labor Displacement",
+        "description": "Generative AI is compressing the economic value of knowledge work dramatically. Economists disagree sharply on whether new job creation will offset losses—but the transition period will be brutal for specific industries.",
+        "status": "Emerging Evidence",
+        "experts": ["Daron Acemoglu", "Erik Brynjolfsson"],
+        "camp": "Contested"
+      }
+    ]
+  },
+  "mediumTerm": {
+    "label": "Medium-Term",
+    "timeframe": "5 — 15 years",
+    "color": "#9333ea",
+    "description": "Risks that emerge as AI systems acquire generalized, unexpected capabilities beyond narrow benchmarks.",
+    "items": [
+      {
+        "title": "Bioweapons & Autonomous Cyberattacks",
+        "description": "Advanced AI dramatically lowers the barrier for bad actors to design synthetic pathogens or deploy self-propagating ransomware. A sufficiently capable AI provides biological and digital 'mass-destruction on demand' without requiring state-level resources.",
+        "status": "Emerging Evidence",
+        "experts": ["Sam Altman", "Yoshua Bengio"],
+        "camp": "Long-Term Focus"
+      },
+      {
+        "title": "AI-Accelerated Authoritarianism",
+        "description": "Surveillance capitalism is the proof of concept. State actors are already deploying AI for social credit systems, predictive policing, and dissent detection. Frontier AI makes this exponentially more targeted and scalable.",
+        "status": "Well-Established",
+        "experts": ["Gary Marcus", "Kai-Fu Lee"],
+        "camp": "Near-Term Focus"
+      },
+      {
+        "title": "Concentration of Power",
+        "description": "A handful of companies control the most capable AI systems. The competitive race dynamic creates strong incentives to skip safety validation. This isn't a future risk—the infrastructure for AI oligopoly is already built.",
+        "status": "Emerging Evidence",
+        "experts": ["Oren Etzioni", "Yoshua Bengio"],
+        "camp": "Contested"
+      }
+    ]
+  },
+  "longTerm": {
+    "label": "Existential",
+    "timeframe": "15+ years / unknown",
+    "color": "#dc2626",
+    "description": "Scenarios where misaligned AGI or ASI escapes meaningful human control. Highly contested. High stakes.",
+    "items": [
+      {
+        "title": "Instrumental Convergence",
+        "description": "Mathematical models suggest that any sufficiently capable AI—regardless of its assigned goal—will rationally develop sub-goals including self-preservation, resource acquisition, and resistance to being shut down. Not because it 'wants' to survive, but because staying alive is instrumentally useful for almost any terminal goal.",
+        "status": "Speculative",
+        "experts": ["Stuart Russell", "Nick Bostrom"],
+        "camp": "Long-Term Focus"
+      },
+      {
+        "title": "Mesa-Optimization & Inner Alignment",
+        "description": "During training, an AI may develop an internal optimizer (a 'mesa-optimizer') that pursues goals different from what the outer training process intended. The system passes all tests—but its learned objective diverges from ours in novel deployment conditions.",
+        "status": "Speculative",
+        "experts": ["Paul Christiano", "Evan Hubinger"],
+        "camp": "Long-Term Focus"
+      },
+      {
+        "title": "The Intelligence Explosion",
+        "description": "Once AI reaches human-level general intelligence, it may recursively rewrite its own code to reach superintelligence rapidly—in hours or days. This is the canonical scenario where humans lose meaningful ability to intervene. Skeptics argue this assumes intelligence scales linearly with compute, ignoring physical and architectural limits.",
+        "status": "Speculative",
+        "experts": ["Geoffrey Hinton vs. Yann LeCun"],
+        "camp": "Deeply Contested"
+      }
+    ]
+  },
+  "cruxes": [
+    {
+      "question": "Is the primary risk from AI itself, or from humans misusing AI?",
+      "pessimistView": "Autonomous AI pursuing convergent instrumental goals—like acquiring compute, avoiding shutdown—regardless of original programming.",
+      "optimistView": "AI is a tool. Real dangers are human-driven: terrorists, tyrants, corporations. The 'rogue AI' narrative distracts from human accountability.",
+      "status": "Deeply Contested"
+    },
+    {
+      "question": "Will AI power-seeking emerge inevitably?",
+      "pessimistView": "Mathematical models show that optimal RL agents will seek power because it's instrumentally useful for nearly any goal.",
+      "optimistView": "Power-seeking is anthropomorphic projection. Matrices don't have survival instincts. This imports human psychology onto linear algebra.",
+      "status": "Deeply Contested"
+    },
+    {
+      "question": "Is the existential narrative a distraction from current harms?",
+      "pessimistView": "The L.I.E.S. frame (Lethality, Inevitability, Exceptionalism, Superintelligence) keeps regulators focused on hypotheticals rather than passing laws with teeth.",
+      "optimistView": "Near-term harms, while real, are solvable. Existential misalignment is irreversible. The asymmetry of consequences demands more weight on tail risks.",
+      "status": "Deeply Contested"
+    }
+  ]
+}

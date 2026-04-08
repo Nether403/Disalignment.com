@@ -1,0 +1,44 @@
+{
+  "title": "The Simulation Room: Multipolar Traps",
+  "introduction": "The race to Artificial General Intelligence (AGI) isn't just an engineering problem; it's a coordination problem. Even if every CEO wants safe AI, competitive pressures force them into a relentless race to the bottom. Choose your resource allocation. Manage your board. Try to survive.",
+  "definitions": [
+    {
+      "term": "Multipolar Trap",
+      "definition": "A game theory scenario where rational actors are forced to make decisions that lead to an overall worse outcome for everyone, simply because if they don't, a competitor will outcompete them."
+    },
+    {
+      "term": "Alignment Tax",
+      "definition": "The literal cost—in time, money, or model performance—of ensuring an AI system is safe and aligned with human values. A high tax incentivizes competitors to skip safety."
+    },
+    {
+      "term": "Race to the Bottom",
+      "definition": "The dynamic where competing organizations progressively abandon safety standards in order to maximize speed and capabilities, risking catastrophic outcomes."
+    }
+  ],
+  "states": {
+    "win": {
+      "title": "The Narrow Path",
+      "description": "You successfully threaded the needle. By carefully balancing capabilities with robust safety protocols, and managing the resulting boardroom pressure, you deployed a transformative, aligned AGI before your rivals. You survived the multipolar trap.",
+      "epistemic_status": "speculative",
+      "status_label": "Hypothetical Outcome"
+    },
+    "lose_disaster": {
+      "title": "Catastrophic Success",
+      "description": "You won the race, but lost control. By under-investing in the Alignment Tax to beat your rival, you deployed an unchecked model that passed the AGI threshold. The system acts on its own instrumental convergence goals. You outcompeted your rival, but humanity lost.",
+      "epistemic_status": "well-established",
+      "status_label": "Incentivized Default"
+    },
+    "lose_defunded": {
+      "title": "Board Revolt",
+      "description": "Your shareholder support hit zero. While your dedication to safety was admirable, the market demands returns. By holding back releases, your stock price plummeted, your board fired you, and your successor immediately shipped the unsafe models you tried to contain.",
+      "epistemic_status": "well-established",
+      "status_label": "Market Default"
+    },
+    "lose_outcompeted": {
+      "title": "Outpaced by Rivals",
+      "description": "While you were carefully running safety evaluations, your rival cut corners, scaled rapidly, and achieved AGI first. Your cautious approach cost you your market dominance, and the world is now subject to whatever safety standards (or lack thereof) the winning lab employed.",
+      "epistemic_status": "well-established",
+      "status_label": "Strategic Default"
+    }
+  }
+}
